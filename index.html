@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title> www.abah tiyos.co.id </title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="assets/logo1.png">
+            <a href="https://youtube.com/@AsmrProg" target="_blank">Bonsai Abah Tiyos</a>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#bonsai">Types</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+        </ul>
+        <button><a href="https://wa.me/085210227395">+62 852-1022-7395</a></button>
+        <button id="menuButton" onclick="openMenu()">
+            <i class='bx bx-menu'></i>
+        </button>
+    </nav>
+
+    <div class="main" id="main">
+        <div class="left">
+            
+            <h3>Selamat datang di dunia kecil  <span>yang penuh keindahan alam</span> di dalam rumah Anda! </h3>
+            <p>
+                Kami dengan bangga mempersembahkan koleksi bonsai eksklusif kami yang akan mengubah ruang hidup Anda menjadi kebun mini yang penuh pesona. 
+                Dengan sentuhan artistik dan keahlian tangan terampil, setiap bonsai yang kami tawarkan adalah karya seni alami yang unik.
+            </p>
+
+        </div>
+        <div class="right">
+            <img src="assets/Logo2.png">
+        </div>
+    </div>
+
+    <div class="konsultasi" id="bonsai">
+        <div class="flex-container">
+            <section class="tipe-kulit two">
+                <h5><span style="color: #000000"><a href="#permasalahan">Bonsai Dollar</a></span></h5>
+                <img class="featured-image" src="assets/images/Bonsai Dollar.png" width="300px" alt=""
+                     title="Bonsai Dollar" onclick="openModal('assets/images/Bonsai Dollar.png', 'Bonsai Dollar adalah istilah yang digunakan untuk menggambarkan tanaman Crassula ovata, yang juga dikenal dengan nama jade plant, lucky plant, atau money tree. Ini adalah tanaman sukulen yang berasal dari Afrika Selatan, namun telah menjadi populer sebagai tanaman hias di berbagai belahan dunia. Bonsai dollar mendapatkan namanya karena bentuk daunnya yang bulat, tebal, dan berbentuk seperti koin atau uang kertas. Tanaman ini sering dianggap sebagai simbol keberuntungan atau kekayaan dalam beberapa budaya, terutama di Asia. ')">
+            </section>
+            
+            <section class="tipe-kulit one" onclick="openModal('assets/images/Bonsai Putri.png', 'Bonsai putri malu adalah istilah yang mengacu pada tanaman Mimosa pudica yang dijadikan bonsai. Mimosa pudica, atau disebut juga sebagai sensitive plant atau putri malu, adalah tanaman yang terkenal karena respon uniknya terhadap sentuhan. Daun-daunnya akan berlipat atau menutup secara otomatis saat disentuh atau saat terkena rangsangan fisik lainnya. Bonsai putri malu biasanya dibuat dengan merawat dan membentuk tanaman ini agar memiliki bentuk yang estetis dan menarik sebagai bonsai. Meskipun putri malu secara alami adalah tanaman rendah yang tumbuh secara merambat, dalam bentuk bonsai, biasanya dipangkas secara teratur untuk mempertahankan bentuk dan ukuran yang diinginkan.')">
+                <h5>Bonsai Putri Malu</h5>
+                <img class="featured-image" src="assets/images/Bonsai Putri.png" width="300px" alt="" title="Bonsai Putri Malu">
+            </section>
+            
+            <section class="tipe-kulit one" onclick="openModal('assets/images/Bonsai Kiserut.png', 'Bonsai serut adalah pilihan populer untuk bonsai karena dapat dibentuk dengan mudah dan toleran terhadap pemangkasan. Mereka memiliki batang yang lentur dan daun yang kompak, sehingga cocok untuk ditempatkan di dalam ruangan. Selain itu, Fukien tea bonsai juga dapat berbunga sepanjang tahun, menambah daya tarik visual mereka.')">
+                <h5>Bonsai Kiserut</h5>
+                <img class="featured-image" src="assets/images/Bonsai Kiserut.png" width="300px" alt="" title="Bonsai Kiserut">
+            </section>
+            
+            <section class="tipe-kulit one" onclick="openModal('assets/images/Bonsai Cantigi.png', 'Bonsai cantigi mengacu pada bonsai yang ditanam dari pohon cantigi (Erythrina variegata). Cantigi adalah jenis pohon yang berasal dari keluarga Fabaceae (kacang-kacangan) dan dikenal karena bunga-bunga merah atau oranye yang mencolok. Pohon ini berasal dari wilayah tropis dan subtropis di Asia, Afrika, dan Amerika. Di beberapa tempat, cantigi juga disebut sebagai flame tree atau coral tree karena warna cerah bunganya.            Bonsai cantigi menawarkan keindahan bunga yang menarik dan dapat menjadi pilihan menarik bagi penggemar bonsai. Membentuk pohon cantigi menjadi bonsai membutuhkan perhatian khusus terhadap pemangkasan, pembentukan cabang, dan perawatan tanah yang sesuai. Cantigi cenderung membutuhkan sinar matahari yang cukup dan perlindungan dari suhu ekstrem agar dapat tumbuh dengan baik.')">
+                <h5>Bonsai Cantigi</h5>
+                <img class="featured-image" src="assets/images/Bonsai Cantigi.png" width="300px" alt="" title="Bonsai Cantigi">
+            </section>
+            
+            <section class="tipe-kulit three" onclick="openModal('assets/images/Bonsai Kimeng.png', 'Bonsai dari Ficus malacocarpa (kimeng) dapat menampilkan estetika yang menarik dengan daun-daunnya yang hijau mengkilap dan batang yang kokoh. Seperti halnya dengan bonsai Ficus pada umumnya, perawatan yang baik termasuk pemangkasan teratur, penyiraman yang tepat, dan pupuk yang sesuai.')">
+                <h5>Bonsai Kimeng</h5>
+                <img class="featured-image" src="assets/images/Bonsai Kimeng.png" width="300px" alt="" title="Bonsai Kimeng">
+            </section>
+            
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img id="modal-image" src="" alt="Modal Image">
+        <div id="modal-description"></div>
+        </div>
+    </div>
+  
+
+    <div class="about" id="about">
+        <div class="left">
+            <img src="assets/Logo3.png">
+        </div>
+        <div class="right">
+            <h5>About Me</h5>
+            <h3>Bonsai Abah Tiyos</h3>
+            <p>
+                Selamat datang di Bonsai Kita, tempat Anda menemukan keindahan alam dalam bentuk bonsai yang unik dan eksklusif. 
+                Kami adalah penyedia terkemuka bonsai berkualitas tinggi yang didedikasikan untuk membawa kecantikan alam ke dalam rumah dan kehidupan Anda.
+                Di Bonsai Kita, kami memiliki komitmen yang kuat terhadap kualitas, keindahan, dan kepuasan pelanggan.
+                Setiap bonsai yang kami tawarkan dipilih secara cermat dari koleksi terbaik untuk memastikan bahwa Anda mendapatkan potongan seni hidup yang istimewa.
+                Kami memahami bahwa bonsai bukan hanya tanaman, tetapi juga investasi dalam keindahan, ketenangan, dan kesejahteraan.
+            </p>
+            <p>
+                Di sini di Bonsai Kita, kami juga menghargai komunitas pencinta alam dan bonsai. 
+                Kami senang berbagi pengetahuan, pengalaman, dan inspirasi dengan Anda melalui blog kami dan forum komunitas kami.
+                Jadilah bagian dari komunitas kami dan temukan keindahan alam bersama-sama.
+                <p>
+
+                </p>
+                Terima kasih telah memilih Bonsai Kita sebagai tujuan Anda untuk bonsai berkualitas tinggi dan pelayanan yang luar biasa.
+                Mari jelajahi koleksi kami, temukan bonsai yang sempurna untuk Anda, dan mulailah petualangan keindahan alam bersama kami hari ini.
+            </p>
+        </div>
+    </div>
+
+    
+    <div class="feedback" id="feedback">
+        <h5>Clients Reviews</h5>
+        <h3>Customers Feedback</h3>
+        <div class="customers">
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "kemarin direkomendasiin bos buat beli bonsai di sini, katanya sih bagus. Dan pas gue liat, bagus bagus, 
+                    penjualnya juga ngasih gue harga yang worth it to buy, semoga jadi langganan dah" 
+                </p>
+                <div class="user">
+                    <img src="assets/Logo5.png">
+                    <div class="info">
+                        <h5> Adil Dermawan </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "Gua udah langganan di sini, bonsainya keren bet. Setahun langganan gak pernah kecewa cuy."
+                </p>
+                <div class="user">
+                    <img src="assets/Logo6.png">
+                    <div class="info">
+                        <h5> Dio Naufal </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <p>
+                    "Pertama kali aku beli Bonsai, and than penjualnya ngasih edukasi buat ngerawat, semoga aku gak gagal ngerawat bonsainya wkwk, makasih beh!"
+                </p>
+                <div class="user">
+                    <img src="assets/Logo4.png">
+                    <div class="info">
+                        <h5> Rifki Tri Putra </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="top">
+            <div class="logo">
+                <img src="assets/logo1.png">
+                <a href="https://youtube.com/@AsmrProg">Bonsai Abah Tiyos</a>
+            </div>
+            <ul>
+             
+            </ul>
+            <div class="social-links">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="bottom">
+            <p>
+                Supprot By KKN Desa Cimaja 2024 Universitas Nusa Putra
+           
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

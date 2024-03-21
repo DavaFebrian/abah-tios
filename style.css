@@ -519,6 +519,15 @@ footer .bottom .links a{
 }
 
 @media screen and (max-width: 1200px) {
+
+    .close {
+        color: white;
+        position: absolute; /* Change from float:right */
+        top: 280px; /* Adjust top position */
+        right: 100px; /* Adjust right position */
+        font-size: 80px;
+        font-weight: bold;
+      }
     
     .main .left h5{
         font-size: 18px;
@@ -581,6 +590,15 @@ footer .bottom .links a{
         display: none;
     }
 
+    .close {
+        color: white;
+        position: absolute; /* Change from float:right */
+        top: 280px; /* Adjust top position */
+        right: 80px; /* Adjust right position */
+        font-size: 80px;
+        font-weight: bold;
+      }
+
     nav ul{
         gap: 20px;
     }
@@ -634,6 +652,15 @@ footer .bottom .links a{
     nav ul{
         display: none;
     }
+
+    .close {
+        color: white;
+        position: absolute; /* Change from float:right */
+        top: 280px; /* Adjust top position */
+        right: 20px; /* Adjust right position */
+        font-size: 80px;
+        font-weight: bold;
+      }
 
     nav.open .logo{
         display: none;
